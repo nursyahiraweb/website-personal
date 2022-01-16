@@ -1,0 +1,55 @@
+#main .logo {
+	float: left;
+}
+
+.logo {
+	background: url(img/logo.png);
+	width: 200px;
+	height: 130px;
+	background-position: center;
+	background-size: cover;
+	margin-left: 40px;
+	margin-top: -25px;
+	position: relative; bottom:  20px;
+}
+
+.primary{
+    position: relative; left:160px;
+}
+
+.sks{
+    position: relative; left:190px;
+}
+
+.smksj{
+    width: 400px;
+    position: relative; left: 190px;
+}
+
+.secondary{
+    position: relative; left:160px;
+}
+.uni-1{
+    width: 170px;
+    position:  relative;left: 170px;
+}
+
+.uni-2{
+    width: 300px;
+    position: relative; left: 190px;
+}
+
+.uni{
+    width: 200px;
+    position: relative; left:150px;
+}
+
+p{
+    font-style: italic;
+    color: rgb(161, 79, 141);
+    font-weight: bold;
+}
+h2{
+    color: rgb(100, 47, 89);
+    font-style: oblique;
+}

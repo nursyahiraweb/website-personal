@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#main .logo {
+	float: left;
+}
+
+.logo {
+	background: url(img/logo.png);
+	width: 200px;
+	height: 130px;
+	background-position: center;
+	background-size: cover;
+	margin-left: 40px;
+	margin-top: -25px;
+	position: relative; top:  20px;
+}
+
+input{
+	display: none;
+}
+
+.container{
+	width: 80%;
+	text-align: center;
+	position: relative; left: 100px;
+}
+
+h1{
+	font-weight: normal;
+	font-size: 35px;
+	position: relative; right: 100px;
+	margin: 40px 0;
+	bottom: 10px;
+	top: 4px;
+	color:white;
+}
+
+h1::before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color:violet;
+	bottom: -10px;
+	left:50%;
+	transform: translate(-50%);
+	animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+	0%{
+		width: 100px;
+	}
+	50%{
+		width: 100px;
+	}
+	100%{
+		width: 200px;
+	}
+}
+
+.top-content{
+	background-color: rgb(211, 134, 194);
+	width: 90%;
+	margin: 0 auto 20px auto;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	border-radius: 2px; 
+	box-shadow:3px 3px 5px white ;
+}
+
+h3{
+	height: 100%;
+	background-color: rgb(221,221,221);
+	line-height: 60px;
+	padding: 0 50px;
+	color: white;
+}
+label{
+	display: inline-block;
+	height: 100px;
+	margin: 0 20px;
+	line-height: 98px;
+	font-size: 18px;
+	color:white;
+	cursor: pointer;
+	transition: color .5s;
+}
+label:hover{
+	color:black;
+}
+
+.fam{
+	width: 500px;
+}
+
+.friends{
+	width: 500px;
+}
+
+.scenary{
+	width: 500px;
+}
+
+.random{
+	width: 500px;
+}
